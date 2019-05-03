@@ -3,7 +3,10 @@ import { NgModule } from '@angular/core';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
-import { AbbMissaoComponent } from './abb-missao/abb-missao.component';
+import { AbbMissaoComponent } from './shared/abb-missao/abb-missao.component';
+import { RouterModule } from '@angular/router';
+import { HomeModule } from './home/abb-home.module';
+import { AppRoutingModule } from './app.routing.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +15,10 @@ import { AbbMissaoComponent } from './abb-missao/abb-missao.component';
   ],
   imports: [
     BrowserModule,
-    NgbModule
+    NgbModule,
+    RouterModule,
+    HomeModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
