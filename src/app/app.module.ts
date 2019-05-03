@@ -4,11 +4,13 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { AbbMissaoComponent } from './abb-missao/abb-missao.component';
+import { AbbEquipeComponent } from './abb-equipe/abb-equipe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AbbMissaoComponent
+    AbbMissaoComponent,
+    AbbEquipeComponent
   ],
   imports: [
     BrowserModule,
