@@ -12,9 +12,6 @@
     position: relative;
     margin-bottom: 30px;
   }
-  .our_team_area .team_row .team_membar img {
-    max-width: 100%;
-  }
   .our_team_area .team_row .team_membar .team_content {
     background: #10437F;
     text-align: center;
