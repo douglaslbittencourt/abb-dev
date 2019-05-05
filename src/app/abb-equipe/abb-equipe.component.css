@@ -1,0 +1,72 @@
+.our_team_area {
+    padding-bottom: 70px;
+    background: #fefefe;
+  }
+  .our_team_area .team_row {
+    padding-top: 70px;
+  }
+  .our_team_area .team_row .team_membar {
+    height: 378px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  .our_team_area .team_row .team_membar img {
+    max-width: 100%;
+  }
+  .our_team_area .team_row .team_membar .team_content {
+    background: #10437F;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+  }
+  .our_team_area .team_row .team_membar .team_content ul {
+    padding: 0;
+    margin: 0;
+    height: 0px;
+    overflow: hidden;
+    transition: all 300ms linear 0s;
+  }
+  .our_team_area .team_row .team_membar .team_content ul li {
+    list-style: none;
+    padding-left: 20px;
+    display: inline-block;
+  }
+  .our_team_area .team_row .team_membar .team_content ul li:first-child {
+    padding: 0;
+  }
+  .our_team_area .team_row .team_membar .team_content ul li a {
+    font-size: 14px;
+    color: #fff;
+    line-height: 43px;
+    width: 45px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: block;
+  }
+  .our_team_area .team_row .team_membar .team_content ul li a:hover, .our_team_area .team_row .team_membar .team_content ul li a:focus {
+    color: #10437F;
+    background: #fff;
+  }
+  .our_team_area .team_row .team_membar .team_content .name {
+    font: 700 14px "Roboto", sans-serif;
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    padding-top: 10px;
+  }
+  .our_team_area .team_row .team_membar .team_content h6 {
+    font: 400 14px "Roboto", sans-serif;
+    color: #fff;
+    padding-top: 5px;
+  }
+  .our_team_area .team_row .team_membar:hover .team_content ul, .our_team_area .team_row .team_membar:focus .team_content ul {
+    height: 50px;
+  }
