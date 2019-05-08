@@ -1,0 +1,49 @@
+/*TITLE*/
+.title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.title h2 {
+  font: 400 24px "Oswald", sans-serif;
+  color: #222222;
+  padding-top: 90px;
+  position: relative;
+}
+.title h2:after {
+  content: "";
+  position: absolute;
+  background: #10437F;
+  height: 5px;
+  width: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -30px;
+}
+.title h4 {
+  font: 400 14px "Roboto", sans-serif;
+  color: #555555;
+  padding-top: 55px;
+}
+
+/*SUBTITLE*/
+.subtitle h2 {
+  font: 700 36px "Roboto", sans-serif;
+  color: #222222;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 20px;
+}
+.subtitle h2:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 80px;
+  background: #222222;
+  left: 0;
+  bottom: -22px;
+}
+.subtitle h5 {
+  font: 400 14px "Roboto", sans-serif;
+  color: #555555;
+  padding-top: 22px;
+}

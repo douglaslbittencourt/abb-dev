@@ -4,9 +4,11 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
-import { HomeModule } from './home/abb-home.module';
 import { AppRoutingModule } from './app.routing.module';
 import {SharedModule} from './shared/abb-shared.module';
+import { AbbHomeModule } from './home/abb-home.module';
+import { AbbServicoModule } from './abb-servico/abb-servico.module';
+import { AbbContatoModule } from "./abb-contato/abb-contato.module";
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import {SharedModule} from './shared/abb-shared.module';
     BrowserModule,
     NgbModule,
     RouterModule,
-    HomeModule,
+    AbbHomeModule,
+    AbbServicoModule,
+    AbbContatoModule,
     AppRoutingModule,
     SharedModule
   ],
