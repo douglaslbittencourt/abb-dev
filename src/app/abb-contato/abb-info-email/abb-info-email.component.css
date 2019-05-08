@@ -28,7 +28,6 @@
   font: 400 14px/28px "Roboto", sans-serif;
   color: #555555;
   display: block;
-  text-transform: none;
   text-decoration: none;
 }
 .info_email .contact_row .contact_info .location a:hover, .info_email .contact_row .contact_info .location a:focus {
@@ -38,12 +37,11 @@
 .info_email .contact_row .contact_info .location .f_location {
   padding-bottom: 30px;
 }
-.info_email .contact_row .contact_info .location .location_laft {
+.info_email .contact_row .contact_info .location .location_left {
   width: 98px;
   float: left;
 }
 .info_email .contact_row .contact_info .location .address a {
-  text-transform: none;
   text-decoration: none;
 }
 .info_email .contact_row .email .contact_box {
@@ -74,16 +72,15 @@
   resize: none;
 }
 .info_email .contact_row .email .contact_box button {
-  color: #fefefe;
+  color: #282828;
+  background: #10589c;
   font: 400 14px/40px "Roboto", sans-serif;
-  background: #115ca6;
   width: 140px;
-  color: #222222;
   border: 0;
   border-radius: 0;
   text-transform: uppercase;
 }
 .info_email .contact_row .email .contact_box button:hover, .info_email .contact_row .email .contact_box button:focus {
-  color: #10437F;
-  background: #222222;
+  color: #282828;
+  background: #1668bf;
 }
