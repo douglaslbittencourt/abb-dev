@@ -5,11 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './abb-info-email.component.html',
   styleUrls: ['./abb-info-email.component.css']
 })
-export class AbbInfoEmailComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+export class AbbInfoEmailComponent {
 
 }

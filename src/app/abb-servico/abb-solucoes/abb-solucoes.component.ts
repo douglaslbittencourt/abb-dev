@@ -5,11 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './abb-solucoes.component.html',
   styleUrls: ['./abb-solucoes.component.css', '../../app.component.css']
 })
-export class AbbSolucoesComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+export class AbbSolucoesComponent  {
 
 }

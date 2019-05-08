@@ -1,13 +1,13 @@
-.all_contact_info .contact_row {
+.info_email .contact_row {
   padding: 100px 0;
 }
-.all_contact_info .contact_row .contact_info h2 {
+.info_email .contact_row .contact_info h2 {
   font: 700 26px/1 "Roboto", sans-serif;
   color: #222222;
   padding-bottom: 30px;
   position: relative;
 }
-.all_contact_info .contact_row .contact_info h2:after {
+.info_email .contact_row .contact_info h2:after {
   content: "";
   position: absolute;
   height: 2px;
@@ -16,37 +16,40 @@
   left: 0;
   bottom: 0;
 }
-.all_contact_info .contact_row .contact_info p {
+.info_email .contact_row .contact_info p {
   font: 400 14px/26px "Roboto", sans-serif;
   color: #555555;
   padding-top: 30px;
 }
-.all_contact_info .contact_row .contact_info .location {
+.info_email .contact_row .contact_info .location {
   padding-top: 55px;
 }
-.all_contact_info .contact_row .contact_info .location a {
+.info_email .contact_row .contact_info .location a {
   font: 400 14px/28px "Roboto", sans-serif;
   color: #555555;
   display: block;
-  text-transform: uppercase;
+  text-transform: none;
+  text-decoration: none;
 }
-.all_contact_info .contact_row .contact_info .location a:hover, .all_contact_info .contact_row .contact_info .location a:focus {
+.info_email .contact_row .contact_info .location a:hover, .info_email .contact_row .contact_info .location a:focus {
   color: #10437F;
+  transition: 750ms;
 }
-.all_contact_info .contact_row .contact_info .location .f_location {
+.info_email .contact_row .contact_info .location .f_location {
   padding-bottom: 30px;
 }
-.all_contact_info .contact_row .contact_info .location .location_laft {
+.info_email .contact_row .contact_info .location .location_laft {
   width: 98px;
   float: left;
 }
-.all_contact_info .contact_row .contact_info .location .address a {
+.info_email .contact_row .contact_info .location .address a {
   text-transform: none;
+  text-decoration: none;
 }
-.all_contact_info .contact_row .send_message .contact_box {
+.info_email .contact_row .email .contact_box {
   padding-top: 30px;
 }
-.all_contact_info .contact_row .send_message .contact_box .input_box {
+.info_email .contact_row .email .contact_box .input_box {
   border: 1px solid #dfe3e4;
   border-radius: 0;
   box-shadow: none;
@@ -54,33 +57,33 @@
   height: 50px;
   padding-left: 15px;
   width: 100%;
-  color: #d3dadf;
+  color: black;
   margin-bottom: 20px;
 }
-.all_contact_info .contact_row .send_message .contact_box .input_box.placeholder {
-  color: #d3dadf;
+.info_email .contact_row .email .contact_box .input_box.placeholder {
+  color: #6e7075;
 }
-.all_contact_info .contact_row .send_message .contact_box .input_box:-moz-placeholder {
-  color: #d3dadf;
+.info_email .contact_row .email .contact_box .input_box:-moz-placeholder {
+  color: #6e7075;
 }
-.all_contact_info .contact_row .send_message .contact_box .input_box::-webkit-input-placeholder {
-  color: #d3dadf;
+.info_email .contact_row .email .contact_box .input_box::-webkit-input-placeholder {
+  color: #6e7075;
 }
-.all_contact_info .contact_row .send_message .contact_box textarea {
+.info_email .contact_row .email .contact_box textarea {
   height: 120px !important;
   resize: none;
 }
-.all_contact_info .contact_row .send_message .contact_box button {
+.info_email .contact_row .email .contact_box button {
   color: #fefefe;
   font: 400 14px/40px "Roboto", sans-serif;
-  background: #10437F;
+  background: #115ca6;
   width: 140px;
   color: #222222;
   border: 0;
   border-radius: 0;
   text-transform: uppercase;
 }
-.all_contact_info .contact_row .send_message .contact_box button:hover, .all_contact_info .contact_row .send_message .contact_box button:focus {
+.info_email .contact_row .email .contact_box button:hover, .info_email .contact_row .email .contact_box button:focus {
   color: #10437F;
   background: #222222;
 }
