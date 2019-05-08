@@ -10,7 +10,7 @@ import {SharedModule} from './shared/abb-shared.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
