@@ -12,7 +12,7 @@ import { AbbContatoModule } from "./abb-contato/abb-contato.module";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
