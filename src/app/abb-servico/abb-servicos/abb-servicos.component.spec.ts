@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AbbInfoEmailComponent } from './abb-info-email.component';
+import { AbbServicosComponent } from './abb-servicos.component';
 
-describe('AbbInfoEmailComponent', () => {
-  let component: AbbInfoEmailComponent;
-  let fixture: ComponentFixture<AbbInfoEmailComponent>;
+describe('AbbServicosComponent', () => {
+  let component: AbbServicosComponent;
+  let fixture: ComponentFixture<AbbServicosComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AbbInfoEmailComponent ]
+      declarations: [ AbbServicosComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AbbInfoEmailComponent);
+    fixture = TestBed.createComponent(AbbServicosComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
