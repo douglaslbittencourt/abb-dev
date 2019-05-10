@@ -6,6 +6,6 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./abb-imagem.component.css']
 })
 export class AbbImagemComponent {
-    @Input() imagem = 'https://picsum.photos/200/300'
-    @Input() descricao = 'Tetse'
+  @Input() public url: string;
+  @Input() public descricao: string;
 }
