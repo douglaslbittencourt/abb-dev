@@ -6,12 +6,14 @@ import { AbbHeaderComponent } from './abb-header/abb-header.component';
 import { AbbFooterComponent } from './abb-footer/abb-footer.component';
 import { CommonModule } from '@angular/common';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
   imports: [
     CommonModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    RouterModule
   ],
   exports: [
     AbbMissaoComponent,
