@@ -5,16 +5,16 @@
     <links>
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link waves-light" mdbWavesEffect>Home<span class="sr-only"></span></a>
+                <a [routerLink]="['']" routerLinkActive="router-link-active"  class="nav-link waves-light" mdbWavesEffect>Home<span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link waves-light" mdbWavesEffect>Serviços</a>
+                <a [routerLink]="['/servico']" routerLinkActive="router-link-active"  class="nav-link waves-light" mdbWavesEffect>Serviços</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link waves-light" mdbWavesEffect>Contato</a>
+                <a [routerLink]="['/contato']" routerLinkActive="router-link-active" class="nav-link waves-light" mdbWavesEffect>Contato</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link waves-light" mdbWavesEffect>Sobre</a>
+                <a [routerLink]="['/sobre']" routerLinkActive="router-link-active" class="nav-link waves-light" mdbWavesEffect>Sobre</a>
             </li>
         </ul>
     </links>
