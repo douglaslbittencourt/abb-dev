@@ -3,7 +3,7 @@ import {Component, OnInit} from '@angular/core';
 @Component({
   selector: 'app-abb-parceiros',
   templateUrl: './abb-parceiros.component.html',
-  styleUrls: ['./abb-parceiros.component.css']
+  styleUrls: ['./abb-parceiros.component.css', '../../app.component.css']
 })
 
 export class AbbParceirosComponent implements OnInit {

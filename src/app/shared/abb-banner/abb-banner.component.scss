@@ -1,0 +1,25 @@
+.banner_area {
+    background: url("../../../assets/images/fundo-para-titulos2.jpeg") no-repeat fixed;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 70px;
+  }
+  .banner_area:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    z-index: -1;
+  }
+  .banner_area h2 {
+    color: #fff;
+    font: 400 40px "Oswald", sans-serif;
+    text-transform: uppercase;
+    padding-top: 85px;
+  }
