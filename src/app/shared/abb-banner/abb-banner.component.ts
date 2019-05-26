@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-abb-banner',
   templateUrl: './abb-banner.component.html',
   styleUrls: ['./abb-banner.component.scss']
 })
-export class AbbBannerComponent implements OnInit {
+export class AbbBannerComponent {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
+  @Input() title: string;
 
 }
