@@ -10,40 +10,58 @@ export class AbbParceirosComponent implements OnInit {
 
   cards = [
     {
-      img: './assets/images/cliente_logo/cliente_amgem.png'
+      img: './assets/images/cliente_logo/abbvie.png'
     },
     {
-      img: './assets/images/cliente_logo/cliente_baxter.png'
+      img: './assets/images/cliente_logo/alexion.png'
     },
     {
-      img: './assets/images/cliente_logo/cliente_ems.png'
+      img: './assets/images/cliente_logo/allergan.png'
     },
     {
-      img: './assets/images/cliente_logo/cliente_ferring.png'
+      img: './assets/images/cliente_logo/apsen.png'
     },
     {
-      img: './assets/images/cliente_logo/cliente_libbs.png'
+      img: './assets/images/cliente_logo/bauschlomb.png'
     },
     {
-      img: './assets/images/cliente_logo/cliente_shire.png'
+      img: './assets/images/cliente_logo/baxter.png'
     },
     {
-      img: './assets/images/cliente_logo/cliente_torrent_farma.png'
+      img: './assets/images/cliente_logo/besinshealthcare.png'
     },
     {
-      img: './assets/images/cliente_logo/cliente_ucb.png'
+      img: './assets/images/cliente_logo/ems.png'
     },
     {
-      img: './assets/images/cliente_logo/cliente_uniao_quimica.png'
+      img: './assets/images/cliente_logo/ferring.png'
     },
     {
-      img: './assets/images/cliente_logo/cliente_valtant.png'
+      img: './assets/images/cliente_logo/grupofleury.png'
     },
     {
-      img: './assets/images/cliente_logo/cliente_libbs.png'
+      img: './assets/images/cliente_logo/libbs.png'
     },
     {
-      img: './assets/images/cliente_logo/cliente_ucb.png'
+      img: './assets/images/cliente_logo/shire.png'
+    },
+    {
+      img: './assets/images/cliente_logo/takeda.png'
+    },
+    {
+      img: './assets/images/cliente_logo/torrentpharma.png'
+    },
+    {
+      img: './assets/images/cliente_logo/ucb.png'
+    },
+    {
+      img: './assets/images/cliente_logo/uniaoquimica.png'
+    },
+    {
+      img: './assets/images/cliente_logo/unitedmedical.png'
+    },
+    {
+      img: './assets/images/cliente_logo/ferring.png'
     },
   ];
   slides: any = [[]];
