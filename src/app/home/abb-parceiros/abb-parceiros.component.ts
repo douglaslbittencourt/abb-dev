@@ -10,59 +10,88 @@ export class AbbParceirosComponent implements OnInit {
 
   cards = [
     {
-      img: './assets/images/cliente_logo/abbvie.png'
+      img: 'https://i.picsum.photos/id/237/250/150.jpg'
     },
     {
-      img: './assets/images/cliente_logo/alexion.png'
+      img: 'https://i.picsum.photos/id/237/250/150.jpg'
     },
     {
-      img: './assets/images/cliente_logo/allergan.png'
+      img: 'https://i.picsum.photos/id/237/250/150.jpg'
     },
     {
-      img: './assets/images/cliente_logo/apsen.png'
+      img: 'https://i.picsum.photos/id/237/250/150.jpg'
     },
     {
-      img: './assets/images/cliente_logo/bauschlomb.png'
+      img: 'https://i.picsum.photos/id/237/250/150.jpg'
     },
     {
-      img: './assets/images/cliente_logo/baxter.png'
+      img: 'https://i.picsum.photos/id/237/250/150.jpg'
     },
     {
-      img: './assets/images/cliente_logo/besinshealthcare.png'
+      img: 'https://i.picsum.photos/id/237/250/150.jpg'
     },
     {
-      img: './assets/images/cliente_logo/ems.png'
+      img: 'https://i.picsum.photos/id/237/250/150.jpg'
     },
     {
-      img: './assets/images/cliente_logo/ferring.png'
+      img: 'https://i.picsum.photos/id/237/250/150.jpg'
     },
-    {
-      img: './assets/images/cliente_logo/grupofleury.png'
-    },
-    {
-      img: './assets/images/cliente_logo/libbs.png'
-    },
-    {
-      img: './assets/images/cliente_logo/shire.png'
-    },
-    {
-      img: './assets/images/cliente_logo/takeda.png'
-    },
-    {
-      img: './assets/images/cliente_logo/torrentpharma.png'
-    },
-    {
-      img: './assets/images/cliente_logo/ucb.png'
-    },
-    {
-      img: './assets/images/cliente_logo/uniaoquimica.png'
-    },
-    {
-      img: './assets/images/cliente_logo/unitedmedical.png'
-    },
-    {
-      img: './assets/images/cliente_logo/ferring.png'
-    },
+
+
+    // {
+    //   img: './assets/images/cliente_logo/abbvie.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/alexion.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/allergan.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/apsen.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/bauschlomb.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/baxter.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/besinshealthcare.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/ems.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/ferring.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/grupofleury.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/libbs.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/shire.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/takeda.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/torrentpharma.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/ucb.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/uniaoquimica.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/unitedmedical.png'
+    // },
+    // {
+    //   img: './assets/images/cliente_logo/ferring.png'
+    // },
   ];
   slides: any = [[]];
 
