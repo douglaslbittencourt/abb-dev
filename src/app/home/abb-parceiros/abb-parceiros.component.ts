@@ -65,6 +65,15 @@ export class AbbParceirosComponent implements OnInit {
     {
       img: './assets/images/cliente_logo/ferring.png'
     },
+    {
+      img: './assets/images/cliente_logo/amgen.png'
+    },
+    {
+      img: './assets/images/cliente_logo/natulab.png'
+    },
+    {
+      img: './assets/images/cliente_logo/takeda.png'
+    },
   ];
   slides: any = [[]];
   slides1: any = [[]];
