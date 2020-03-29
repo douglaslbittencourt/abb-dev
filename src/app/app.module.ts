@@ -13,6 +13,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
 import { AbbHomeModule } from './home/abb-home.module';
 import { SharedModule } from './shared/abb-shared.module';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 
 @NgModule({
@@ -34,7 +35,7 @@ import { SharedModule } from './shared/abb-shared.module';
     SharedModule,
     MDBBootstrapModule.forRoot()
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
