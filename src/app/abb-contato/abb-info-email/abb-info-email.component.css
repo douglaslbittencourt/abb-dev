@@ -35,7 +35,10 @@
   transition: 750ms;
 }
 .info_email .contact_row .contact_info .location .f_location {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
+}
+.info_email .contact_row .contact_info .location .f_tel {
+  padding-bottom: 28px;
 }
 .info_email .contact_row .contact_info .location .location_left {
   width: 125px;
@@ -86,27 +89,60 @@
   background: #1668bf;
 }
 
-@media only screen and (max-width: 350px) and (min-width: 0px) {
+@media only screen and (max-width: 323px) and (min-width: 0px) {
   .info_email .contact_row .contact_info .location .f_location {
     padding-bottom: 112px;
   }
+  .info_email .contact_row .contact_info .location .f_tel {
+    padding-bottom: 28px;
+  }
   .info_email .contact_row .contact_info .location .f_mail {
     padding-bottom: 28px;
   }
 }
 
-@media only screen and (max-width: 400px) and (min-width: 351px){
+@media only screen and (max-width: 376px) and (min-width: 324px) {
   .info_email .contact_row .contact_info .location .f_location {
     padding-bottom: 84px;
   }
+  .info_email .contact_row .contact_info .location .f_tel {
+    padding-bottom: 28px;
+  }
   .info_email .contact_row .contact_info .location .f_mail {
     padding-bottom: 28px;
   }
 }
 
-@media only screen and (max-width: 500px) and (min-width: 401px){
+@media only screen and (max-width: 392px) and (min-width: 377px) {
   .info_email .contact_row .contact_info .location .f_location {
-    padding-bottom: 57px;
+    padding-bottom: 56px;
+  }
+  .info_email .contact_row .contact_info .location .f_tel {
+    padding-bottom: 28px;
+  }
+  .info_email .contact_row .contact_info .location .f_mail {
+    padding-bottom: 28px;
+  }
+}
+
+@media only screen and (max-width: 489px) and (min-width: 393px){
+  .info_email .contact_row .contact_info .location .f_location {
+    padding-bottom: 56px;
+  }
+  .info_email .contact_row .contact_info .location .f_tel {
+    padding-bottom: 28px;
+  }
+  .info_email .contact_row .contact_info .location .f_mail {
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 490px){
+  .info_email .contact_row .contact_info .location .f_location {
+    padding-bottom: 28px;
+  }
+  .info_email .contact_row .contact_info .location .f_tel {
+    padding-bottom: 28px;
   }
   .info_email .contact_row .contact_info .location .f_mail {
     padding-bottom: 0px;

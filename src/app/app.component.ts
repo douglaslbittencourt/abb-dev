@@ -11,6 +11,7 @@ import { filter, map, switchMap } from 'rxjs/operators';
 export class AppComponent implements OnInit {
 
   constructor(private activatedRoute: ActivatedRoute, private router: Router, private titleService: Title) {
+    this.titleService.setTitle("blood-blue");
   }
 
   ngOnInit(): void {

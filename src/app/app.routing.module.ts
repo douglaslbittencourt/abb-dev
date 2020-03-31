@@ -7,7 +7,7 @@ import { AbbSobreComponent } from './abb-sobre/abb-sobre.component';
 
 const routes: Routes = [
     { path: '', pathMatch: 'full', redirectTo: 'home' },
-    { path: 'home', component: AbbHomeComponent, data: { title: 'Home' } },
+    { path: 'home', component: AbbHomeComponent, data: { title: 'blood-blue' } },
     { path: 'servico', component: AbbServicoComponent, data: { title: 'Serviço' } },
     { path: 'contato', component: AbbContatoComponent, data: { title: 'Contato' } },
     { path: 'sobre', component: AbbSobreComponent, data: { title: 'Sobre' } },
